@@ -1,0 +1,15 @@
+<Configuration>
+    <vGPU>Enable</vGPU>
+    <Networking>Default</Networking>
+    <MappedFolders>
+        <MappedFolder> 
+            <HostFolder>C:\dev\demo\shared</HostFolder> 
+            <SandboxFolder>C:\Users\cj\demo</SandboxFolder> 
+            <ReadOnly>true</ReadOnly> 
+        </MappedFolder>
+    </MappedFolders>
+    <ClipboardRedirection>Default</ClipboardRedirection>
+    <LogonCommand>
+        <Command>C:\Users\cj\demo\getapps.cmd</Command>
+    </LogonCommand>
+</Configuration>
